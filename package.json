@@ -1,0 +1,38 @@
+{
+  "name": "promise-crawler",
+  "version": "0.1.0",
+  "description": "Promise support for node-crawler (Web Crawler/Spider for NodeJS + server-side jQuery)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppliedSoul/promise-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "node-crawler",
+    "request-crawler",
+    "promise-node-crawler"
+  ],
+  "author": "Noel Gaur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AppliedSoul/promise-crawler/issues"
+  },
+  "homepage": "https://github.com/AppliedSoul/promise-crawler#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "crawler": "^1.1.4",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^12.0.2"
+  }
+}
