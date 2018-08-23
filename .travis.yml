@@ -2,8 +2,6 @@ language:     node_js
 node_js:
   - "8"
 #dist:        trusty
-os:           osx
-addons:
-  chrome:     stable
+#os:          osx
 after_script:
-  - npm run coverage  
+  - npm run coverage
