@@ -10,7 +10,7 @@ Nodejs library for website crawling using [node-crawler](https://github.com/bda-
 
 
 
-###Install using npm:
+#### Install using npm:
 ```
 npm i promise-crawler --save
 ```
@@ -24,7 +24,7 @@ const crawler = new PromiseCrawler({
   retries: 3
 });
 
-//setup internal node-crawler instance and resolves promise
+//perform setup and then use it
 crawler.setup().then(() => {
   // makes request with node-crawler queue options
   crawler.request({
