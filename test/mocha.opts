@@ -1,0 +1,4 @@
+--recursive
+--require ./test/setup
+--ui bdd
+--timeout 60000
